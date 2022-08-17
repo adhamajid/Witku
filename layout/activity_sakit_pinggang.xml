@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SakitPinggang">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sakit Pinggang"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSakit pinggang adalah sakit yang dirasakan pada punggung bagian bawah. Biasanya penderita akan mengalami sakit yang hilang timbul ataupun terus menerus pada salah satu pinggang atau keduanya."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tNah, mengapa sakit pinggang ini bisa terjadi? Sakit pinggang paling sering disebabkan oleh cedera otot atau sendi di area pinggang, bisa akibat posisi tubuh yang salah, melakukan angkat beban, atau melakukan gerakan secara berulang. Namun sakit pinggang ini juga dapat terjadi karena adanya infeksi atau masalah tulang belakang ataupun gangguan organ ginjal."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="Yuk Kenali Gejalanya!"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="1. Pinggang terasa pegal, kaku, atau seperti ditusuk.
+            \n2. Nyeri dapat menjalar ke area pantat sampai kaki.
+            \n3. Sakit pinggang menyebabkan sulit bergerak dan berdiri tegak.
+            \n4. Sakit memburuk jika duduk terlalu lama.
+            \n5. Sakit memburuk jika membungkuk atau melakukan aktivitas angkat beban."
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kunyit"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

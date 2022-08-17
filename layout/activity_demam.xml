@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Demam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PENURUN DEMAM"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tDemam bukanlah suatu penyakit, melainkan gejala dari suatu penyakit. Perlu diketahui bahwa suhu tubuh normal adalah 37oC. Suhu tubuh bisa dikatakan demam jika pada pagi hari lebih dari 37,2oC dan pada sore hari lebih dari 37,7oC. Kenaikan suhu 38oC pada anak di bawah lima tahun dapat memicu kejang dengan gejala antara lain: tangan dan kaki kejang, mata melihat ke atas, gigi dan mulut tertutup rapat, serta penurunan kesadaran. Jika hal tersebut terjadi, maka segeralah ke dokter.
+            \n\nDemam dapat diturunkan menggunakan:"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/sambiloto"/>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Pengolahan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:onClick="ClickHome">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="16dp"
+                android:onClick="ClickLogo"
+                android:src="@drawable/logo_awal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/demam"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Demam" />
+
+        <Button
+            android:id="@+id/letihlesu"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Letih Lesu" />
+
+        <Button
+            android:id="@+id/mencret"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Mencret" />
+
+        <Button
+            android:id="@+id/mimisan"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Mimisan" />
+
+        <Button
+            android:id="@+id/mual"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Mual" />
+
+        <Button
+            android:id="@+id/panasdalam"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Panas Dalam" />
+
+        <Button
+            android:id="@+id/pinggang"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Sakit Pinggang" />
+
+        <Button
+            android:id="@+id/sakitkepalasebelah"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Sakit Kepala Sebelah" />
+
+        <Button
+            android:id="@+id/sakittenggorokan"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Sakit Tenggorokan" />
+
+        <Button
+            android:id="@+id/imun"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="70dp"
+            android:text="Peningkat Imun" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

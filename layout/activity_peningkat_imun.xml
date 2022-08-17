@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeningkatImun">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Peningkat Imun"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Pengolahan Lengkuas"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tLengkuas merupakan salah satu bagian dari rimpang yang memiliki kandungan zink yang berfungsi untuk meningkatkan sel darah (leukosit) dan merangsang keluarnya histamin (anti alergi) sehingga dapat meningkatkan imunitas. Kandungan Zink ini merupakan salah satu asupan yang perlu ditambah di masa pandemi COVID-19 ini selain mengonsumsi Vit C dan E."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- 2 cm kunyit
+            \n- 2 cm lengkuas
+            \n- 1 buah jeruk nipis
+            \n- Air panas
+            \n- Madu"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Pengolahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- Rajang lengkuas dan kunyit hingga ukuran menjadi kecil
+            \n-	Tambahkan air panas (seduh) ke dalam gelas yang sudah ada rajangan kunyit dan lengkuas
+            \n- Saat air mulai hangat, tambahkan jeruk nipis secukupnya
+            \n-	Tambahkan madu sesuai selera"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Penggunaan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Pengolahan Bawang Putih"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tBawang putih mengandung sulfur sebagai anti virus/ mikroba. Sulfur tersebut tidak dapat dicerna oleh tubuh, sehingga dikeluarkan melalui paru-paru. Perlu diketahui bawang putih dapat dioleh dengan cara digeprek/ dihancurkan/ dihaluskan."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- 2 Siung Bawang Putih
+            \n- 1 Gelas Air
+            \n- Madu"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Pengolahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- Geprek Bawang Putih
+            \n- Diamkan selama 15 menit (supaya bereaksi)
+            \n- Seduh dengan air hangat
+            \n- Jika air sudah hangat, boleh ditambahkan dengan madu"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Penggunaan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tDiminum 1x sebelum makan / 45 setelah makan (bagi penderita maag)"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tPerlu Diingat!"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tJangan tambahkan madu dalam suhu panas karena enzim yang terkandung"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Pengolahan Campuran Meniran, Pegagan, Kunyit"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tMeniran dapat merangsang imun. Selain itu, pegagan memiliki kandungan zink, vitamin, merangsang imun. Kunyit mengandung Curcumin yang berfungsi sebagai antibakteri, antioksidan (mencegah/ memperlambat kerusakan sel), antiinflamasi (radang) ,  Perlu diketahui simplisia yang akan dikeringkan bukan menggunakan oven melainkan dibawah sinar matahari langsung."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBahan:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- Pegangan kering/basah
+            \n- Meniran kering/basah
+            \n- Kunyit"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Pengolahan:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="-	Rajang kunyit sampai berukuran kecil
+            \n-	Campurkan rajangan kunyit, meniran kering/ basah, dan pegagan kering/ basah
+            \n-	Seduh dengan air hangat"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Pengolahan Daun Jeruk Purut"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tJeruk purut mengandung senyawa antioksidan yang akan meingkatkan imunitas. Perlu diketahui, jahe dapat mengurangi gejala mual dan kembung, terutama bagi penderita maag."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- 4 lembar daun jeruk purut
+            \n- 30 gram jahe/kunyit/temulawak, rajang tipis
+            \n- 2 batang sereh yang sudah digeprek
+            \n- 1 buah jeruk purut,diperas"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Membuat :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="-	Rebus semua bahan dalam 2 gelas
+            \n-	Hentikan proses merebus jika air sudah mulai berkurang setengahnya
+            \n-	Saring
+            \n-	Tambahkan jeruk purut dan madu"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="Pengolahan Daun Seledri"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tSeledri mengandung beberapa vitamin, mineral, dan antioksidan untuk sel tubuh. Hindarkan pengolahan seledri dengan menggunakan air panas karena dapat merusak zat aktif sehingga mengurangi nilai manfaatnya."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tBahan :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- Daun Seledri
+            \n- Air dingin
+            \n- Madu/apel/lemon"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="\t\tCara Membuat :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="- Rajang daun seledri dan masukkan dalam blender
+            \n-	Tambahkan air dingin secukupnya
+            \n-	Tambahkan madu secukupnya
+            \n-	Blender hingga halus
+            \n- Saring"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

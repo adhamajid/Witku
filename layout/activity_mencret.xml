@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mencret">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MENCRET (DIARE)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tMencret/ diare adalah suatu penyakit yang menyebabkan penderitanya sering buang air besar dengan tinja encer. Penyebab terjadinya penyakit ini adalah makan makanan yang terlalu pedas, makanan yang terpapapr virus, bakteri, jarang cuci tangan sebelum  makan, dan lain-lain. Jika diare terus berlanjut, maka segeralah periksa ke dokter.
+            \n\nYuk Kenali Gejalanya:
+            \n1. Perut mulas
+            \n2. Tinja encer atau bisa berdarah
+            \n3. Mulai terasa dehidrasi
+            \n4. Pusing, lemas, dan kulit kering
+            \n5. Berat badan turun
+            \n6. Demam
+            \n7. Sakit kepala"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/jambubiji"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mimisan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MIMISAN"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tMimisan sering terjadi pada anak usia 3- 10 tahun, lansia, wanita hamil, penderita kelainan darah, dan orang yang mengonsumsi obat pengencer darah. , dan lainnya. "
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="PENYEBAB :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="1.Kondisi udara yang kering
+            \n2.Kebiasaan mengorek hidung
+            \n3.Membuang ingus terlalu kencang
+            \n4.Alergi
+            \n5.Penggunaan pelega hidung
+            \n6.Dan lain-lain"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="PENANGANAN AWAL :"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="Perlu diingat!
+jika mulai terjadi mimisan jangan panik, dan biarkan darah tersebut keluar, ikuti langkah-langkah di bawah ini !
+            \n1. Duduk tegak karena dapat mengurangi tekanan pembuluh darah dalam hidung, sehingga pendarah dapat terhenti.
+            \n2. Condongkan tubuh ke depan supaya darah dapat keluar
+            \n3. Pencet hidung selama 10 - 15 menit dan bernapas melalui mulut
+            \n4. Letakkan kompres dingin pada pangkal hidung untuk memperlambat pendarahan.
+            \n5. Hindari rokok dan minum alkohol, serta segera istirahat yang cukup"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sirih"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

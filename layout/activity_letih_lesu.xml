@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LetihLesu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LETIH LESU"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:gravity="left|center"
+            android:text="\t\tKelelahan adalah suatu keadaan yang dapat dirasakan karena kurangnya energi dan juga motivasi. Jangan khawatir! karena kelelahan merupakan hal yang wajar dan muncul akibat adanya respon terhadap aktivitas fisik, stres, kebosanan, atau kurang tidur. Jika pola tidur dan mengonsumsi nutrisi cukup tetap saja merasa mudah lelah, dapat segera periksa ke dokter."
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/temulawak"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Informasi">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/main_toolbar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="INFORMASI"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="1. Apa itu Jamu?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tJamu (obat tradisional) adalah suatu olahan yang berasal dari tumbuhan yang sudah digunakan secara turun temurun yang terbukti aman serta memiliki manfaat bagi tubuh. Manfaat dari jamu, yaitu menjaga imun tubuh, menjaga kesehatan, kebugaran dan kecantikan, dan mencegah terjadinya penyakit (swaprevensi)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="2. Apa itu sistem imun tubuh?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tSistem imun (Daya Tahan Tubuh) adalah kondisi di mana tubuh dapat mempertahankan dirinya dari serangan benda asing yang masuk ke tubuh dan mengakibatkan terganggunya sistem tubuh."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="3. Bagaimana mengonsumsi jamu yang baik?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tPerlu diperhatikan, jamu  yang baik dikonsumsi oleh tubuh adalah jamu yang segar
+(sumber tanaman) atau jamu yang baru dibuat dan dikonsumsi dalam satu hari. Selain dalam bentuk segar,
+dapat dibuat dalam bentuk kering supaya dapat bertahan lebih lama. Jika jamu dalam bentuk cairan dan
+ingin disimpan dikulkas, dapat bertahan maksimal 2-3 hari. "
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="4. Apakah jamu segar boleh diberi tambahan?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tPerlu diketahui bahwa jamu segar bisa ditambahkan dengan tambahan simplisia lain yang memiliki khasiat sama atau  beberapa perasa, perasa, biar lebih nikmat. Tapi perasa yang tidak berbahan pengawet ya, seperti anggur jamu, kuning telur, madu, atau produk jamu bungkusan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="5. Tiga Kriteria Jamu (AMM)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Jamu yang mau dikonsumsi harus memenuhi 3 kriteria, yaitu :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Aman"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tJamu dapat dikatakan aman jika sudah digunakan secara turun temurun dan tidak menyebabkan efek samping karena sudah terbukti bagaimana reaksi ataupun manfaat dari suatu jamu, tanaman yang digunakan adalah tanaman obat, sehingga memiliki khasiat yang jelas, dan yang terpenting adalah tidak ditambahkan dengan bahan kimia, seperti pemanis/pengawet (natrium benzoat), dan lain-lain."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Mutu"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tJamu dapat dikatakan bermutu jika diolah dengan cara yang sesuai dalam pengolahannya dengan cara terstandar (merebus selama 15 menit jangan melebihi supaya tidak merusak khasiat dari tanaman tersebut). Jamu yang layak untuk dikonsumsi tidak boleh tercemar (bahan-bahan kimia, asap, dan lain-lain)  dan tidak rusak (baik dari rasa, warna, dan bau)."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c. Manfaat"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\t\tJamu dapat memberikan manfaat untuk tubuh kita, dalam hal menjaga kesehatan, mencegah penyakit, serta mengobati penyakit jika dikonsumsi secara teratur dan sesuai dengan tujuan penggunaan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="6. Isitlah yang lazim dalam jamu, misal simplisia"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Simplisia adalah bagian dari tumbuhan yang dapat digunakan baik bagian tertentu pada tanaman atau utuh. Simplisia terbagi menjadi dua, yaitu :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Simplisia segar
+                \nSimplisia segar adalah bagian tumbuhan segar yang masih dalam bentuk aslinya."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Simplisia kering
+                \nSimplisia kering adalah tumbuhan yang sudah dikeringkan (baik dengan dioven, dijemur, ataupun lainnya) sebelum diolah lebih lanjut. Perlu diperhatikan bahwa jika akan mengeringkan tanaman, suhu tidak boleh melebihi 60 C"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="7. Bagaimana cara memilih tanaman yang dapat diolah?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Dalam mengolah tanaman harus memperhatikan kondisi tanamannya, baik dari umur tanaman (seperti daun yang masih muda, dan lain-lain), bebas dari hama penyakit, dan tanaman dalam keadaan segar."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="8. Bagian yang biasa digunakan dalam tanaman"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Bagian tanaman yang sering digunakan adalah rimpang, kulit batang/kayu, Daun, Bunga, Biji, Buah, Herba, dan akar. Biasanya di internet, supaya mendapatkan informasi tanaman lebih cepat bisa menggunakan nama latinnya. Dan setiap tanaman memiliki nama latin yang berbeda."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="9. Pemilihan Alat Untuk Pengolahan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Pemilihan alat dapat mempercepat penyairan dan tidak rusak selama proses penyairan. Alat perlu diperhatikan dalam pembuatan jamu karena akan mempengaruhi kualitasnya dan untuk memperoleh hasil yang murni, sediakan alat khusus dalam peracikannya.. Alat yang baik digunakan sebagai berikut."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Panci
+                \nUsahakan untuk menggunakan panci stainless atau panci blirik bukan panci yang berbahan logam, seperti besi, alumunium, dan kuningan karena akan mengeluarkan bahan-bahan yang mencemarkan ramuan yang sedang dibuat."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Botol
+                \nBotol yang baik digunakan adalah botol kaca, bukan botol bekas air mineral maupun botol plastik dalam bentuk lain, karena tidak sesuai dengan kesterilan alat yang akan digunakan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="10. Bagaimana Tahap Awal Mengolah Tanaman Obat ?"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Pencucian
+                \nTujuan : membersihkan/ menghilangkan tanah dan kotoran lain yang melekat.
+                \nPerhatian	: simplisia yang mengandung zat aktif yang mudah larut, cuci sesingkat mungkin.
+                \nDalam mengolah (mulai dari panen, dipetik, dicabut, atau dipotong, pencucian, pengeringan, penyimpanan, mengekstraksi) tanaman obat, sebelum meracik lebih lanjut, pastikan memilih bahan yang segar dan cuci bahan dengan air yang mengalir. Untuk bahan yang mudah larut, cuci sesingkat mungkin dan tiriskan. Kemudian, saat ingin memasak tanaman obat, air harus dipastikan dalam keadaan bersih atau sesuai dengan standar kesehatan, seperti Sumur, PAM, dan air isi ulang. Dan perlu diketahui bahwa air yang layak digunakan tidak boleh  berwarna, berasa, dan berbau."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Perajangan
+                \nTujuan : memudahkan proses selanjutnya untuk pengeringan, penggilingan, dan pengepakan.
+                \nPerhatian	: irisan jangan terlalu tipis karena akan membuat simplisia mudah kering, berkurang/ hilangnya zat aktif yang mudah menguap, mempengaruhi bau, dan warna."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c. Pengeringan
+                \nTujuan : mengurangi kadar, supaya simplisia dapat bertahan lama/ awet dan tidak terjadi reaksi kimia.
+                \nPembagian	:"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3mm"
+                android:gravity="left|center"
+                android:text="-	Secara alami
+                \nPertama, dibawah sinar matahari langsung untuk tanaman yang keras, seperti kayu, kulit kayu, dan biji.
+                \nKedua, diangin-anginkan, tidak terkena sinar matahari langsung untuk tanaman yang lunak, seperti bunga dan daun.
+                \n-	Secara buatan\noven, almari pengering."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="11. Hal-hal yang Harus Diperhatikan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Kebersihan merupakan kunci utama dalam pengolahan tanaman obat karena akan mempengaruhi kualitas dari jamu yang diproduksi.
+                \na. Kebersihan diri"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3mm"
+                android:gravity="left|center"
+                android:text="i. Kondisi sehat
+                \nii. Biasakan cuci tangan menggunakan sabun, sebelum dan setelah membuat jamu.
+                \niii. Menggunakan pakaian yang bersih
+                \niv. Menggunakan tutup kepala, celemek, sarung tangan dam menggunakan masker (bagi yang sedang flu).
+                \nv. Kuku tangan dalam keadaan pendek dan bersih
+                \nvi. Tidak menggunakan perhiasan tangan (kutek, cincin, dan sebagainya)
+                \nvii. Tidak merokok, meludah, makan dan minum ketika dalam proses pembuatan jamu."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Kebersihan peralatan lingkungan/Sanitasi"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:textStyle="bold"
+                android:text="Peralatan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3mm"
+                android:gravity="left|center"
+                android:text="i. Mencuci bersih peralatan yang akan digunakan dengan sabun, bilas dengan air yang mengalir, kemudian keringkan dan simpan di tempat khusus yang sudah disediakan.
+                \nii.	Menyiapkan peralatan pembuatan jamu sebelum melakukan proses pembuatan.
+                \niii. Tidak mencuci peralatan yang akan digunakan di dalam toilet."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="\tSebelum menggunakan botol, botol harus dibersihkan terlebih dahulu, berikut cara mencuci/membersihkan botol :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3mm"
+                android:gravity="left|center"
+                android:text="i. Cuci botol dan tutup botol sampai bersih kemudian disikat dengan sabun sampai bersih dan bilas menggunakan air yang mengalir agar lebih bersih.
+                \nii.	Rebus botol dan tutup botol dalam air sampai mendidih selama 15 menit.
+                \niii. Tiriskan dan keringkan botol dan tutup botol hingga kering.
+                \niv.	Simpan botol dan tutupnya di tempat khusus yang sudah disediakan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:textStyle="bold"
+                android:text="Lingkungan"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Lingkungan yang baik atau dianjurkan dalam pembuatan jamu, yaitu : "
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3mm"
+                android:gravity="left|center"
+                android:text="i. Lingkungan yang bersih, bebas dari binatang dan bebas dari daerah pencemaran lingkungan, serta tempat penyimpanan peralatan dalam keadaan bersih.
+                \nii.	Diletakkannya tempat sampah tertutup
+                \niii. Tempat pembuatan tidak dekat dengan jamban ataupun toilet.
+                \niv.	Melakukan pembersihan tempat pembuatan secara rutin."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_marginTop="13dp"
+                android:text="12. Langkah Aman Dalam Mengolah Obat Tradisional di Rumah Tangga"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Langkah-langkah yang aman dalam pembuatan jamu sangat penting, karena ketika kurang aman maka kemungkinan terjadinya kecelakaan lumayan besar. Berikut langkah yang aman dalam pembuatan jamu, yaitu :"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="a. Pastikan alat dan tempat yang akan digunakan dalam keadaan bersih. Peralatan yang digunakan dianjurkan menggunakan alat berbahan stainless steel."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="b. Menggunakan pakaian bersih, mencuci tangan sebelum melakukan pengolahan bahan, dianjurkan untuk menggunakan masker dan sarung tangan dalam proses pengolahan jamu."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="c. Memisahkan kotoran atau bahan asih dengan bahan yang akan diolah, karena termasuk dalam bagian simplisia nabati yang rusa, simplisia nabati dari tumbuhan lain yang tercampurkan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="d. Simplisia nabati yang tidak banyak tercemar tanah dilakukan beberapa kali pencucian dengan air bersih yang mengalir. Sedangkan kotoran yang melekat kuat dengan bahan yang akan diolah dipisahkan dengan cara penyemprotan air bersih dibantu dengan tangan atau sikat yang lembut."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="e. Setelah proses pembersihan dan pencucian bahan, kemudian penirisan, bagian ini dilakukan untuk mengurangi atau menghilangkan air sisa pencucian yang ada di permukaan simplisia nabati."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="f. Pemotongan atau perajangan dilakukan untuk memperkecil ukuran dengan metode pemotongan atau pengirisan menggunakan pisau yang tajam yang terbuat dari logam nirkarat yang masih utuh sehingga dapat memberikan hasil yang lebih optimal pada tahap perebusan."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="13. Pengeringan hasil ekstraksi (kering)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Untuk jamu yang berwujud cair maka lebih baik segera dikonsumsi, apabila sudah mulai berbau hentikan. Jika jamu dalam keadaan kering, prinsip pembuatanya adalah menurunkan kadar air"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="14. Packing"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Dapat dipacking dari herbalnya langsung (yang sudah kering) baik dengan plastik ataupun kemasan botol"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="13dp"
+                android:text="15. Packing"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2mm"
+                android:gravity="left|center"
+                android:text="Disimpan pada suhu kamar supaya mencegah munculnya jamur yang akan memunculkan aflatoksin yang beracun. Jika sudah ada aflaktosinnya tidak usah dikonsumsi."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
