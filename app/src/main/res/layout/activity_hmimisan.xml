@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Herbal.Hmimisan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Nosebleed"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Sirih"
+            android:layout_width="111dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="5dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/sirih" />
+
+        <ImageView
+            android:id="@+id/Pegagan"
+            android:layout_width="111dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="5dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/pegagan" />
+
+        <ImageView
+            android:id="@+id/Alang"
+            android:layout_width="111dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="5dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/alang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/Anting"
+            android:layout_width="111dp"
+            android:layout_height="137dp"
+            android:layout_marginStart="5dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/anting" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".General.Gattention">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="ATTENTION"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Safe Steps to Manage TOGA"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:padding="20sp"
+                android:text="Safe steps in making herbal medicine are very important, because when it is not safe, the possibility of an accident is quite large. The following are safe steps in making herbal medicine.
+\n\n1. Make sure the tools and places to be used are clean. It is recommended that the equipment used is made of stainless steel.
+\n\n2. Using clean clothes, washing hands before processing materials, it is recommended to use masks and gloves in the herbal medicine processing.
+\n\n3. Sorting: Separating the dirt or sweet material from the material to be processed, because it is included in the part of the vegetable simplicia that is deer, the vegetable simplicia from other plants is mixed.
+\n\n4. Washing: Vegetable simplicia which is not polluted by soil is carried out several times by washing with clean running water. Meanwhile, dirt that is strongly attached to the material to be processed is separated by spraying clean water with the help of hands or a soft brush.
+\n\n5. Draining: After the process of cleaning and washing the material, then draining, this section is carried out to reduce or eliminate the remaining washing water on the surface of vegetable simplicia.
+\n\n6. Cutting or chopping is done to reduce size by cutting or slicing method using a sharp knife made of stainless metal that is still intact so that it can provide more optimal results at the boiling stage (if the plant is boiled and drunk immediately) and facilitates the next process (if the final result is in the form of simplicia)"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

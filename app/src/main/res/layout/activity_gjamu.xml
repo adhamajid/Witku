@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".General.Gjamu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Herbal Criteria"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="The Best Way to Consume Herbs"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It should be noted that a well herb consumption by the body is either fresh herbs (a source of plants) or freshly made and consumed in a day. Other than in fresh form, it can be fashioned in a dry form in order to last longer. Liquid herbs and stored in the refrigerator, it can last for 2-3 days at most."
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Additional Fresh Herbs"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line2desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line2"
+                android:padding="20sp"
+                android:text="Let it be known that fresh herbs can be added with the additional another simplicia that have the same efficacy or some flavor to get taster better. But feelers that have no preservative, egg yolk, honey, or herbal wrapping products."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Three of herbal criteria"
+                android:textSize="16sp"
+                android:layout_below="@+id/line2desc"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line3desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Safety
+                \nIt can be said to be safe when traditionally used and does not cause side effects because it has been shown either by reaction or by benefit of an herb, by the one used as a medicinal plant, by which there is definite medicinal value, and by no means is added to any chemical, such as sweetener/preservative (sodium benzoate), and so forth."
+                android:layout_marginLeft="5sp"
+                android:layout_below="@+id/line3"
+                android:textColor="@color/black"
+                android:padding="20sp"/>
+
+
+            <TextView
+                android:id="@+id/line3desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line3desc1"
+                android:padding="20sp"
+                android:text="b. Quality
+                \n The Herb is good in itself if properly treated in its prescribed form (boiling for 15 minutes does not exceed in order to avoid damaging the plant's medicinal properties). Proper herbs should not be contaminated (chemicals, smoke, etc.) and may not be damaged (of taste, color, and smell)."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/line3desc23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line3desc2"
+                android:padding="20sp"
+                android:text="c. Benefits
+                \n The Herbs can benefit our bodies, in safeguarding our health, in preventing disease, and in treating diseases if they are consumed regularly and for the purpose of use."
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

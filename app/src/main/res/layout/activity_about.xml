@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navDrawer.About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:id="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <!--<TextView
+            android:id="@+id/teksabout"
+            android:layout_width="70sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:text="About"
+            android:textColor="@color/black"
+            android:layout_marginTop="50sp"
+            android:textSize="25sp"
+            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/teksversion"
+            android:layout_width="315sp"
+            android:layout_height="25sp"
+            android:layout_below="@+id/include"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/retangle_pilihan"
+            android:text="Version"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="70sp"
+            android:layout_height="39sp"
+            android:id="@+id/version"
+            android:layout_below="@+id/teksversion"
+            android:layout_centerHorizontal="true"
+            android:text="Versi 2.0"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/teksterbit"
+            android:layout_below="@+id/version"
+            android:layout_width="315sp"
+            android:layout_height="25sp"
+            android:layout_centerInParent="true"
+            android:text="Published"
+            android:background="@drawable/retangle_pilihan"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130sp"
+            android:layout_height="39sp"
+            android:id="@+id/terbit"
+            android:layout_below="@+id/teksterbit"
+            android:layout_centerHorizontal="true"
+            android:text="08 Agustus 2021"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tekspenemu"
+            android:layout_below="@+id/terbit"
+            android:layout_width="315sp"
+            android:layout_height="25sp"
+            android:layout_centerInParent="true"
+            android:text="Inventor’s Profile"
+            android:background="@drawable/retangle_pilihan"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/endang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tekspenemu"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/endang" />
+
+        <ImageView
+            android:id="@+id/ima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tekspenemu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ima" />
+
+        <ImageView
+            android:id="@+id/mupleh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/endang"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mupleh" />
+
+        <ImageView
+            android:id="@+id/adha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ima"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/me" />
+
+        <ImageView
+            android:id="@+id/supra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mupleh"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/supra" />
+
+        <ImageView
+            android:id="@+id/zahra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adha"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/zahra" />
+
+    </RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

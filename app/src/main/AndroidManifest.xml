@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.iddwitku.witku">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Witku"
+        tools:targetApi="31">
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Htemulawak"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hsalam"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hpegagan"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hketumbar"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.HkayuSec"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.HkayuManis"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.HjerukN"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hingu"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hgendola"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hciplukan"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hblimbing"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hanting"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Imun.Ikapulaga"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Imun.Isereh"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Imun.Ijahe"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hinfluenza"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.HmasukAngin"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hsariawan"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hmimisan"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hdiare"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hbatuk"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Herbal.Hdemam"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Badas"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.BjambuBiji"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Bmengkudu"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Balang"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Bsirih"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Bsambiloto"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.Benefits.Bkunyit"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gattention"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gguide"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gtoga"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gtools"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gchoosing"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gjamu"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.General.Gdefinition"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.navDrawer.Konsul"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.navDrawer.Timbangan"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.navDrawer.About"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.iddwitku.witku.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8299199271373776~1164184497"/>
+    </application>
+
+</manifest>

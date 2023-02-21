@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/retangle.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/retangle_pilihan.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/retangle_white.xml" value="0.1085" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.21693840579710144" />
+        <entry key="app/src/main/res/layout/activity_badas.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_balang.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_bjambu_biji.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_bkunyit.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_bmengkudu.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_bsambiloto.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_bsirih.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_gattention.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gchoosing.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gdefinition.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gguide.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gjamu.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gtoga.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_gtools.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_hanting.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hanting2.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hbatuk.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_hblimbing.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/layout/activity_hciplukan.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hdemam.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_hdiare.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_hgendola.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hinfluenza.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_hingu.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hjeruk_n.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hkayu_manis.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hkayu_sec.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/layout/activity_hketumbar.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hmasuk_angin.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_hmimisan.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_hpegagan.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_hsalam.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/layout/activity_hsariawan.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_htemulawak.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_ijahe.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ikapulaga.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/activity_isereh.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/activity_konsul.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.27943840579710144" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.27943840579710144" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/activity_timbangan.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/each_child_item.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/each_parent_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/each_text.xml" value="0.30932971014492755" />
+        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/main_toolbar.xml" value="0.3234375" />
+        <entry key="app/src/main/res/layout/slider_layout.xml" value="0.3385416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3234375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

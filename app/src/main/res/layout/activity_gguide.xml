@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".General.Gguide">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="GUIDE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Things to Note"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:padding="20sp"
+                android:text="Cleanliness is the main key in the processing of medicinal plants because it will affect the quality of the herbs produced.
+\nPersonal Hygiene
+\nHealthy condition
+\nGet in the habit of washing your hands with soap before and after making herbal medicine.
+\nUse clean clothes
+\nUsing headgear, apron, gloves and wearing a mask (for those who have the flu).
+\nFingernails are short and clean
+\nDo not use hand jewelry (nail, rings, etc.)
+\nDo not smoke, spit, eat and drink while in the process of making herbal medicine.
+
+\n\nEquipment Hygiene
+\nWash the equipment to be used with soap, rinse with running water, then dry and store in a special place that has been provided.
+\nPrepare equipment for making herbal medicine before carrying out the manufacturing process.
+\nDo not wash utensils that will be used in the toilet.
+\nBefore using the bottle, the bottle must be cleaned first, here's how to wash/clean the bottle
+\nWash the bottle and bottle cap until clean then brush with soap until clean and rinse using running water to make it cleaner.
+\nBoil the bottle and cap in the water until it boils for 15 minutes.
+\nDrain and dry the bottle and bottle cap to dry.
+\nStore bottles and caps in a special place provided.
+
+\n\nEnvironmental Hygiene/ Sanitation
+\nA good environment or recommended in making herbal medicine is as follows.
+\nA clean environment, free from animals and free from environmental pollution areas, as well as equipment storage areas in a clean condition.
+\nPutting a closed trash can
+\nThe place of manufacture is not close to latrines or toilets.
+\nPerform routine site cleaning.
+"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

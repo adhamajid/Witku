@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".General.Gtoga">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Toga Process"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Managing Medicinal Plants"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"
+                android:text="Washing
+\nPurpose	: Cleaning/removing soil and other adhering dirt.
+\nCaution	: Simplicia containing active substances that are easily soluble, wash as short as possible.
+
+\n\nProcessing (starting from harvesting, picking, pulling, or cutting, washing, drying, storing, extracting) medicinal plants, before mixing further, make sure to choose fresh ingredients and wash the ingredients with running water. For soluble ingredients, wash as short as possible and drain. Then, when you want to cook medicinal plants, you must ensure that the water is clean or in accordance with health standards, such as wells, PAM, and refilled water. And please note that water that is suitable for use must not be colored, tasted, or smelled.
+
+\n\nChopping
+\nPurpose:
+\nReduce the size of the plant so that in the boiling process it can attract the active substance optimally (if the final result is a solution)
+
+\n\nFacilitate subsequent processes for drying, milling, and packing (if the final product is simplicia).
+
+\n\nCaution: the slices should not be too thin because it will make the simplicia dry easily, affect the smell, and color, and reduce/loss of the active substance obtained (especially if the active substance is volatile).
+
+\n\nDrying
+\nPurpose: reduce levels, so that simplicia can last a long time / durable and no chemical reactions occur.
+
+\n\nDistribution
+\nNaturally
+\nFirst, under direct sunlight for hardy plants, such as bark, rhizomes and seeds.
+\nSecond, aerated, not exposed to direct sunlight for soft plants, such as flowers and leaves.
+\nArtificially
+\nDrying cupboard/ oven
+
+\n\nPacking
+\nCan be packaged directly from the herbs (which have dried) either with plastic or bottle packaging
+
+\n\nStorage
+\nStored at room temperature to prevent toxic"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp" />
+
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

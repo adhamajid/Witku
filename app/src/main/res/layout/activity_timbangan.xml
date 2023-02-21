@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".navDrawer.Timbangan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="250sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Scales of Ingredients"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rumus"
+            android:layout_width="70sp"
+            android:layout_height="30sp"
+            android:layout_below="@+id/teksscale"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/input"
+            android:text="Sambiloto"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="70sp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/teksscale"
+            android:layout_centerHorizontal="true"
+            android:hint="number"
+            android:inputType="textUri"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/teksscale"
+            android:layout_toRightOf="@+id/input"
+            android:text="gram"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_materi">
+
+        <TextView
+            android:id="@+id/penyakit"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Fever"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/batas"
+            android:layout_below="@+id/penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:background="#636363"/>
+
+        <TextView
+            android:id="@+id/new1"
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:layout_toLeftOf="@+id/hasil"
+            android:layout_below="@+id/batas"
+            android:text="Recipe"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/new2"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:layout_below="@+id/batas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10sp"
+            android:text="Volume"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/new3"
+            android:layout_width="50sp"
+            android:layout_height="30sp"
+            android:layout_toRightOf="@+id/hasil"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/batas"
+            android:text="Unit"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/komposisi"
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:layout_below="@+id/new1"
+            android:layout_toLeftOf="@+id/hasil"
+            android:text="Water"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10sp"
+            android:layout_below="@+id/new2"
+            android:text="Hasil: (125.4"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/satuan"
+            android:layout_width="50sp"
+            android:layout_height="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/new3"
+            android:layout_toRightOf="@+id/hasil"
+            android:text="ml"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</LinearLayout>
